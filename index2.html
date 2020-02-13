@@ -1,6 +1,10 @@
 <!DOCTYPE>
 <html>
     <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
     </head>
@@ -10,8 +14,9 @@
           <div class="form">
             <form class="register-form">
               <input type="text" placeholder="name"/>
-              <input type="password" placeholder="password"/>
-              <input type="text" placeholder="email address"/>
+              <input type="text" name="email" placeholder="email address"/>
+              <input type="text" placeholder="phone number"/>
+              <input type="password" name="pass" placeholder="password"/>
               <button>create</button>
               <p class="message">Already registered? <a href="index.html">Sign In</a></p>
             </form>
@@ -19,6 +24,8 @@
         </div>
     </body>
     
-    
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="JS/SCRIPT.JS"></script>
 </html>
