@@ -5,12 +5,6 @@
   padding: 8% 0 0;
   margin: auto;
 }
-.logoo{
-    height: 20px;
-    float: left;
-    width: auto;
-    margin-top: 20px;
-}
 .form {
   position: relative;
   z-index: 1;
@@ -95,11 +89,7 @@ a {
   color: #EF3B3A;
 }
 body {
-  background: #76b852; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-  background: -moz-linear-gradient(right, #76b852, #8DC26F);
-  background: -o-linear-gradient(right, #76b852, #8DC26F);
-  background: linear-gradient(to left, #76b852, #8DC26F);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/grocery-cart-with-item-1005638.jpg);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;      
