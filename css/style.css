@@ -50,7 +50,9 @@
 a {
   color: #4CAF50;
   text-decoration: none;
+  
 }
+h3{ color: #ffffff;}
 .form .register-form {
   display: contents;
 }
